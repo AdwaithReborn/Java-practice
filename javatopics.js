@@ -9,7 +9,7 @@ byte -> short -> char -> int -> long -> float -> double
 Narrowing Casting (manual) - converting a larger type to a smaller type size
 double -> float -> long -> int -> char -> short -> byte
 
-Example
+Widening Casting Example
 int myInt = 9;
 double myDouble = myInt; // Automatic casting: int to double
 
