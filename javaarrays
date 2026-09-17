@@ -28,3 +28,17 @@ public class Main
 	    System.out.println("The sum is " + sum);
 	}
 }
+
+#ArraySort
+import java.util.Arrays;
+
+public class Main
+{
+	public static void main(String[] args) {
+		int num[] = {12,45,37,89,50};
+		Arrays.sort(num);
+		
+		System.out.println("The numbers are " + Arrays.toString(num));
+		
+	}
+}
