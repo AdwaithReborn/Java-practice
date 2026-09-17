@@ -1,0 +1,12 @@
+import java.util.Arrays;
+
+public class Main
+{
+	public static void main(String[] args) {
+		int num[] = {12,45,67,89,50};
+		String name[] = {"Rollo" , "Michael" , "Edward" , "Johns"};
+		
+		System.out.println("The numbers are " + Arrays.toString(num));
+		System.out.println("The names are " + Arrays.toString(name));
+	}
+}
