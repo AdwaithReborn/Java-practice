@@ -16,6 +16,26 @@ public class Main {
 
 public class Main {
     public static void main(String[] args) {
+        int[] numbers = {10, 25, 7, 40, 30};
+
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+
+        for (int num : numbers) {
+            if (num > largest) {
+                secondLargest = largest;
+                largest = num;
+            } else if (num > secondLargest && num != largest) {
+                secondLargest = num;
+            }
+        }
+
+        System.out.println("Second Largest: " + secondLargest);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
         int num = 5;
         int factorial = 1;
 
