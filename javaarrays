@@ -57,3 +57,26 @@ public class Main
         System.out.println("The average is " + sum/2);
 	}
 }
+
+#ArrayFindElement
+public class Main
+{
+    public static boolean contains(int arr[] , int item){
+        for (int n : arr){
+            if (item == n){
+                return true;
+            }
+        }
+        
+        return false;
+    }
+	public static void main(String[] args) {
+	    
+	    int numbers[] = {
+	        1234, 4231, 568, 123, 980,
+	        2155, 5632, 8132, 3194
+	    };
+	    
+		System.out.println(contains(numbers , 8132));
+	}
+}
