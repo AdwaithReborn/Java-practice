@@ -171,6 +171,21 @@ public class Main {
 
 public class Main {
     public static void main(String[] args) {
+        int num = 12345;
+        int reverse = 0;
+
+        while (num != 0) {
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+            num = num / 10;
+        }
+
+        System.out.println(reverse);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
         int[] numbers = {10, 20, 30, 20, 40, 10};
 
         for (int i = 0; i < numbers.length; i++) {
